@@ -20,6 +20,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598470274843</updated>
-      <workItem from="1598470286830" duration="1488000" />
+      <workItem from="1598470286830" duration="1495000" />
+      <workItem from="1598901050784" duration="4231000" />
     </task>
     <servers />
   </component>
