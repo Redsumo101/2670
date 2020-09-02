@@ -23,6 +23,14 @@ public class CharacterMover : MonoBehaviour
     {
         movement.x = Input.GetAxis("Horizontal") * moveSpeed;
         movement.z = Input.GetAxis("Vertical") * moveSpeed;
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            moveSpeed = 6;
+        }
+        else
+        {
+            moveSpeed = 3;
+        }
        
         
         if (Input.GetButtonDown("Jump"))

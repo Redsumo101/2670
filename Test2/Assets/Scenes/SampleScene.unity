@@ -491,7 +491,7 @@ MonoBehaviour:
   gravity: 1
   moveSpeed: 3
   jumpCountMax: 2
-  jumpForceMax: 50
+  jumpForceMax: 65
 --- !u!65 &1538544103
 BoxCollider:
   m_ObjectHideFlags: 0
