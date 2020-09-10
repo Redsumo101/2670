@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CharacterMover.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="Mover.cs" t="Include" />
           <e p="SwitchCharacters.cs" t="Include" />
         </e>
       </e>

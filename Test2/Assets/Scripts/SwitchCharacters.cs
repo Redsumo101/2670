@@ -35,12 +35,12 @@ public class SwitchCharacters : MonoBehaviour
     void ChangeCharacter()
     {
         int i = 0;
-        foreach (Transform weapon in transform)
+        foreach (Transform character in transform)
         {
             if(i == whichCharacter)
-                weapon.gameObject.SetActive(true);
+                character.gameObject.SetActive(true);
             else
-                weapon.gameObject.SetActive(false);
+                character.gameObject.SetActive(false);
             i++;
         }
     }
