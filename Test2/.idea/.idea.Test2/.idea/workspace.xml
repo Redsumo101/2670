@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +79,7 @@
       <workItem from="1599005758543" duration="1463000" />
       <workItem from="1599526375209" duration="2555000" />
       <workItem from="1599678379346" duration="1220000" />
+      <workItem from="1600111772967" duration="2311000" />
     </task>
     <servers />
   </component>
