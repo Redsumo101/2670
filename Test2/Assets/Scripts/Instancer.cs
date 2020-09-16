@@ -11,8 +11,10 @@ public class Instancer : MonoBehaviour
     public void Update()
     {
         var location = transform.position;
+        //Shoots prefabs after pressing the mouse button in the shooting form in unity
         if (Input.GetMouseButtonDown(0))
         {
+            //Spawns bullets
             Instantiate(prefab, location, Quaternion.identity);
 
            

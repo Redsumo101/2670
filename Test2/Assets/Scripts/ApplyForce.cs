@@ -18,6 +18,7 @@ public class ApplyForce : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+     // Destroys the cloned prefabs after 2 seconds 
         Destroy(gameObject, 2f);
     }
 }
