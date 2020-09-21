@@ -11,13 +11,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/36/ec41f298/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -28,9 +31,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +98,7 @@
       <workItem from="1600220863379" duration="141000" />
       <workItem from="1600283802941" duration="2160000" />
       <workItem from="1600657856377" duration="340000" />
+      <workItem from="1600715818531" duration="3634000" />
     </task>
     <servers />
   </component>

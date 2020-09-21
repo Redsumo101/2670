@@ -10,9 +10,11 @@ public class MoveLocator : MonoBehaviour
    {
       cam = Camera.main;
    }
-   private void OnMouseDown()
+   private void Move()
    {
-      var location = cam.ScreenToWorldPoint(Input.mousePosition);
-      pointObj.position = location;
+      if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition)))
+      {
+         
+      }
    }
 }

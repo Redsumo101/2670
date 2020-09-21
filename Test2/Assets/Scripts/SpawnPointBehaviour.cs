@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnPoint : MonoBehaviour
+public class SpawnPointBehaviour : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

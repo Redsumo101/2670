@@ -10,14 +10,16 @@
           <e p="ApplyForce.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
-          <e p="Instancer.cs" t="Include" />
+          <e p="InstancerBehaviour.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
-          <e p="LookAt.cs" t="Include" />
+          <e p="LookAtBehaviour.cs" t="Include" />
+          <e p="MouseEventsBehaviour.cs" t="Include" />
           <e p="MoveLocator.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
-          <e p="SpawnPoint.cs" t="Include" />
+          <e p="SpawnPointBehaviour.cs" t="Include" />
           <e p="SwitchCharacters.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
