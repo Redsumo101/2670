@@ -12,6 +12,9 @@
           <e p="FloatData.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
+          <e p="Lerping.cs" t="Include" />
+          <e p="LookAt.cs" t="Include" />
+          <e p="MoveLocator.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
           <e p="SpawnPoint.cs" t="Include" />
           <e p="SwitchCharacters.cs" t="Include" />
