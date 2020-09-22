@@ -16,7 +16,7 @@ public class InstancerBehaviour : MonoBehaviour
         {
             //Spawns bullets
            var rotationDirection = new Vector3(0f,45f, 0f);
-           Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
+           Instantiate(prefab, location, Quaternion.Euler(rotationDirection));
 
            
         }

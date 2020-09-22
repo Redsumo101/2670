@@ -13,5 +13,6 @@ public class Lerping : MonoBehaviour
       var direction = Vector3.Lerp(vOne,vTwo, value);
       value += 0.1f * Time.deltaTime;
       transform.Translate(direction);
+      
    }
 }
