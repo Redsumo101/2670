@@ -10,11 +10,12 @@ public class MoveLocator : MonoBehaviour
    {
       cam = Camera.main;
    }
-   private void Move()
+   private void Update()
    {
-      if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition)))
+      
+      if (Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
       {
-         
+         pointObj.position = hit.point;
       }
    }
 }

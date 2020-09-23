@@ -11,7 +11,6 @@ public class LookAtBehaviour : MonoBehaviour
         transform.LookAt(lookObj);
         var transformRotation = transform.eulerAngles;
         transformRotation.x = 0;
-        transformRotation.y -= 90;
         transform.rotation = Quaternion.Euler(transformRotation);
     }
 }

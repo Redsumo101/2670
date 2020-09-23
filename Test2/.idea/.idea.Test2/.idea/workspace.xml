@@ -35,10 +35,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
       </list>
     </option>
@@ -100,6 +100,7 @@
       <workItem from="1600657856377" duration="340000" />
       <workItem from="1600715818531" duration="3634000" />
       <workItem from="1600741797929" duration="2405000" />
+      <workItem from="1600819271904" duration="1468000" />
     </task>
     <servers />
   </component>
