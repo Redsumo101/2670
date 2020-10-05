@@ -11,13 +11,15 @@
             <e p="ApplyForce.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="HealthBehavior.cs" t="Include" />
+            <e p="LookAtBehaviour.cs" t="Include" />
+            <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="MouseLocationBehaviour.cs" t="Include" />
+            <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>
           <e p="EnemyBehavior.cs" t="Include" />
           <e p="InstancerBehaviour.cs" t="Include" />
           <e p="Lerping.cs" t="Include" />
-          <e p="LookAtBehaviour.cs" t="Include" />
           <e p="Mover.cs" t="Include" />
           <e p="PlayerManager.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
