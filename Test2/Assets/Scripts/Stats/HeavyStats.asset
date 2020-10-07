@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32da7f0fd863e6c44a673110783bcc61, type: 3}
   m_Name: HeavyStats
   m_EditorClassIdentifier: 
-  defense: 0
-  jumpHeight: 0
-  moveSpeed: 0
-  attack: 0
-  attackSpeed: 0
+  defense: 1
+  jumpHeight: 5
+  moveSpeed: 1
+  attack: 1
+  attackSpeed: 2
