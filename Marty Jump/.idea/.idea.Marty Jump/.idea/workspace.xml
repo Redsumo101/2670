@@ -11,12 +11,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A278EBD4-4AB0-472B-B8E6-38263E06CD61/75/08ef7681/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" />
       </list>
     </option>
   </component>
@@ -68,6 +70,7 @@
       <updated>1601500788507</updated>
       <workItem from="1601500804908" duration="2932000" />
       <workItem from="1601865995932" duration="3508000" />
+      <workItem from="1601930720804" duration="1150000" />
     </task>
     <servers />
   </component>
@@ -84,9 +87,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1601501819234" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601869047404">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601931119451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1601869047404" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1601931119451" />
   </component>
 </project>

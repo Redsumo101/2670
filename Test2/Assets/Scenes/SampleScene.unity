@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 2
+    agentRadius: 7.85
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -114,7 +114,7 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.6666667
+    cellSize: 2.6166666
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -380,6 +380,7 @@ GameObject:
   - component: {fileID: 746488272}
   - component: {fileID: 746488271}
   - component: {fileID: 746488270}
+  - component: {fileID: 746488275}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -491,6 +492,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &746488275
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746488269}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &876594233
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 7807859701473014289, guid: 4784c84174cf7f74f90b8eb1faf7fd15, type: 3}
-  rotationDirection: {fileID: 0}
+  rotationDirection: {fileID: 11400000, guid: 4f48d62154076614694ece91d8b67ef0, type: 2}
   force: 30
 --- !u!850595691 &1276765055
 LightingSettings:
@@ -1193,7 +1210,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -1207,7 +1224,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1808111596}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.2
+  m_Radius: 0.81
   m_Speed: 2
   m_Acceleration: 20
   avoidancePriority: 50
@@ -1216,7 +1233,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 1
+  m_Height: 0.43
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -1290,7 +1307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808111596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.93, y: 1.07, z: 5.52}
+  m_LocalPosition: {x: 9.93, y: 1.42, z: 5.52}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1507,6 +1524,7 @@ MonoBehaviour:
   moveSpeed: 3
   jumpCountMax: 0
   jumpForceMax: 100
+  pushPower: 3
 --- !u!114 &1980126589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1566,3 +1584,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432c150b4abc5394691287cc70ac1f69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnableEvent:
+    m_PersistentCalls:
+      m_Calls: []

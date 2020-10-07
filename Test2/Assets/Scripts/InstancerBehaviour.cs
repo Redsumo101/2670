@@ -9,18 +9,15 @@ public class InstancerBehaviour : MonoBehaviour
     public GameObject prefab;
     public Vector3Data rotationDirection;
     public float force = 30f;
-    public void Update()
+    public void Instance()
     {
-        var location = transform.position;
-        //Shoots prefabs after pressing the mouse button in the shooting form in unity
-        if (Input.GetMouseButtonDown(0))
-        {
+            var location = transform.position;
+     
             //Spawns bullets
-           var rotationDirection = new Vector3(force,0f, 0f);
-           Instantiate(prefab, location, Quaternion.Euler(rotationDirection));
+            var newObj = Instantiate(prefab, location, Quaternion.Euler(rotationDirection.value));
 
            
-        }
+        
 
 
 

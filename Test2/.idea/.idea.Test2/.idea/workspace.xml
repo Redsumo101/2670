@@ -12,15 +12,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/36/ec41f298/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/36/ec41f298/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,7 +38,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveLocator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBehavior.cs" />
@@ -49,8 +49,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +117,9 @@
       <workItem from="1600819271904" duration="2436000" />
       <workItem from="1601243604744" duration="2403000" />
       <workItem from="1601307550139" duration="8322000" />
+      <workItem from="1601913470097" duration="1912000" />
+      <workItem from="1601926067250" duration="2856000" />
+      <workItem from="1602043081861" duration="571000" />
     </task>
     <servers />
   </component>

@@ -14,6 +14,6 @@ public class MonoEventsBehaviour : MonoBehaviour
 
    private void OnEnable()
    {
-      onEnableEvent;
+      onEnableEvent.Invoke();
    }
 }

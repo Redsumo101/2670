@@ -10,10 +10,14 @@ public class Vector3Data : ScriptableObject
   {
     value = obj;
   }
+  public void SetValueFromPosition(Transform obj)
+  {
+    value = obj.position;
+  }  
 
   public void SetValueFromValue(Transform obj)
   {
-    value = obj.position;
+    obj.position = value;
   }  
   
   public void SetValueFromRotation(Transform obj)
@@ -21,9 +25,12 @@ public class Vector3Data : ScriptableObject
     value = obj.eulerAngles;
   }
 
-  public void SetPositionFromData(Transform obj)
+  public void SetFromMousePosition(Camera cam)
   {
-    obj.position = value;
+    if(Physics.Raycast(cam.ScreenPointToRay(Input.mousePosition), out var hit, 100))
+    {
+      value = hit.point;
+    }
   }
   
 }
