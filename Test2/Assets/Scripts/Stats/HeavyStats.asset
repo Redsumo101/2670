@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HeavyStats
   m_EditorClassIdentifier: 
   defense: 1
-  jumpHeight: 5
+  jumpAmount: 3
   moveSpeed: 1
   attack: 1
   attackSpeed: 2
