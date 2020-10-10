@@ -10,18 +10,23 @@ public class CharacterMover : MonoBehaviour
     public float gravity = 9.81f;
     public float moveSpeed = 3f;
     private float jumpForce = 100f;
-    public int jumpCountMax;
-    private int jumpCount;
+    public float jumpCountMax;
+    public float jumpCount;
     public float jumpForceMax = 100f;
+    private StatsBehavior stats;
     void Start()
     {
+        
         controller = GetComponent<CharacterController>();
-       
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        
         movement.x = Input.GetAxis("Horizontal") * moveSpeed;
         movement.z = Input.GetAxis("Vertical") * moveSpeed;
         if (Input.GetKey(KeyCode.LeftShift))
@@ -36,20 +41,18 @@ public class CharacterMover : MonoBehaviour
         
         if (Input.GetButtonDown("Jump"))
         {
-            movement.y = jumpForce;
             jumpCount -= 1;
-            if (jumpCount == 0)
-            {
-                jumpForce = 0 ;
-            }
-           
+            movement.y = jumpForce;
             
         }
-
+        if (jumpCount <= 1)
+        {
+            jumpForce = 0 ;
+        }
         if (controller.isGrounded)
         {
-            jumpCount = jumpCountMax;
-            movement.y = 0;
+            stats = GetComponent<StatsBehavior>();
+            jumpCount = stats.jump;
             jumpForce = jumpForceMax;
         }
         else

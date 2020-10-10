@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32da7f0fd863e6c44a673110783bcc61, type: 3}
-  m_Name: HeavyStats
+  m_Name: RangeStats
   m_EditorClassIdentifier: 
-  defense: 1
+  defense: 0
   jumpAmount: 1
-  moveSpeed: 1
-  attack: 1
-  attackSpeed: 2
+  moveSpeed: 0
+  attack: 0
+  attackSpeed: 0
   nextStats: []

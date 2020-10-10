@@ -29,7 +29,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
@@ -54,9 +53,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +126,7 @@
       <workItem from="1602099868402" duration="604000" />
       <workItem from="1602104590768" duration="1658000" />
       <workItem from="1602176757304" duration="2030000" />
+      <workItem from="1602303015534" duration="5432000" />
     </task>
     <servers />
   </component>
