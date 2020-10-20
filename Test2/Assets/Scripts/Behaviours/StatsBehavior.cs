@@ -17,9 +17,8 @@ public class StatsBehavior : MonoBehaviour
     void Start()
     {
         stat = startingStats;
-        jump = stat.GetStats();
-       
-        ChangeCharacter();
+        
+        ChangeCharacter();;
 
     }
 
@@ -33,27 +32,31 @@ public class StatsBehavior : MonoBehaviour
 
     private void ManageStats()
     {
+        jump = stat.GetStats();
         var nextStats = stat.GetNextStats();
         int previousCharacter = whichCharacter;
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
+            stat = nextStats[0];
             whichCharacter = 0;
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2)
         {
+            stat = nextStats[1];
             whichCharacter = 1;
-            stat = nextStats[0];
+           
         }
         else if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >= 3)
         {
+            stat = nextStats[2];
             whichCharacter = 2;
-            stat = nextStats[1];
+            
         }
         if (previousCharacter != whichCharacter)
         {
             ChangeCharacter();
         }
-        jump = stat.GetStats();
+        
     }
     void ChangeCharacter()
     {

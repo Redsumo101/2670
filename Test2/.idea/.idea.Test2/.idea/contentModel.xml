@@ -11,12 +11,14 @@
             <e p="ApplyForce.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="EnemyBehavior.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
             <e p="HealthBehavior.cs" t="Include" />
             <e p="KnockBackBehaviour.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="MouseLocationBehaviour.cs" t="Include" />
+            <e p="Respawn.cs" t="Include" />
             <e p="StatsBehavior.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>
@@ -29,6 +31,7 @@
             <e p="FloatData.cs" t="Include" />
             <e p="IntData.cs" t="Include" />
             <e p="Stats.cs" t="Include" />
+            <e p="StringListData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="SpawnPointBehaviour.cs" t="Include" />
