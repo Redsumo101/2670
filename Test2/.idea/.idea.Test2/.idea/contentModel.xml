@@ -18,6 +18,7 @@
             <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="MouseEventsBehaviour.cs" t="Include" />
             <e p="MouseLocationBehaviour.cs" t="Include" />
+            <e p="PlayerShooting.cs" t="Include" />
             <e p="Respawn.cs" t="Include" />
             <e p="StatsBehavior.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />

@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,12 +57,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +138,7 @@
       <workItem from="1603134609223" duration="2137000" />
       <workItem from="1603139054769" duration="2052000" />
       <workItem from="1603161837440" duration="3156000" />
+      <workItem from="1603251803160" duration="3290000" />
     </task>
     <servers />
   </component>
