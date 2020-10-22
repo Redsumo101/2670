@@ -48,7 +48,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" />
@@ -63,7 +62,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
       </list>
     </option>
   </component>
@@ -139,6 +140,9 @@
       <workItem from="1603139054769" duration="2052000" />
       <workItem from="1603161837440" duration="3156000" />
       <workItem from="1603251803160" duration="3290000" />
+      <workItem from="1603289658045" duration="1767000" />
+      <workItem from="1603391084087" duration="471000" />
+      <workItem from="1603391580176" duration="2062000" />
     </task>
     <servers />
   </component>

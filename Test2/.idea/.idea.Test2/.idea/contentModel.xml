@@ -10,6 +10,7 @@
           <e p="Behaviours" t="Include">
             <e p="ApplyForce.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
+            <e p="DisappearingPlatform.cs" t="Include" />
             <e p="EnemyBehavior.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="HealthBehavior.cs" t="Include" />

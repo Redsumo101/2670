@@ -1,14 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LookAtBehaviour : MonoBehaviour
 {
-   public void OnLook(Vector3Data obj)
-   {
-      var y = obj.value.y + 90f;
-      Vector3 newLoc = Vector3.zero;
-      newLoc.Set(0,y,0);
-      transform.LookAt(newLoc);
-   }
+    public Transform player;
+    private float PlayerAngle;
+    public float turnSpeed;
+
+  private void Update()
+  {
+      Rotate();
+  }
+
+  void Rotate()
+  {
+      PlayerAngle += Input.GetAxis("Mouse X") * turnSpeed * -Time.deltaTime;
+      player.localRotation = Quaternion.AngleAxis(PlayerAngle, Vector3.up);
+  }
 }
