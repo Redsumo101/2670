@@ -8,12 +8,14 @@ public class HealthBehavior : MonoBehaviour
 {
     public float health = 1f;
     
+    
 
-    private void OnDestroy()
+    private void Update()
     {
         if (health <= 0)
         {
             Destroy(gameObject);
+            
         }
     }
 

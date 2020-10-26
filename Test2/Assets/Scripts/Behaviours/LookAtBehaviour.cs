@@ -5,18 +5,24 @@ using UnityEngine;
 
 public class LookAtBehaviour : MonoBehaviour
 {
-    public Transform player;
-    private float PlayerAngle;
-    public float turnSpeed;
+    private Camera mainCamera;
 
-  private void Update()
-  {
-      Rotate();
-  }
+    private void Start()
+    {
+        mainCamera = FindObjectOfType<Camera>();
+    }
 
-  void Rotate()
-  {
-      PlayerAngle += Input.GetAxis("Mouse X") * turnSpeed * -Time.deltaTime;
-      player.localRotation = Quaternion.AngleAxis(PlayerAngle, Vector3.up);
-  }
+    private void Update()
+    {
+        Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+        Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
+        float rayLength;
+
+        if (groundPlane.Raycast(cameraRay, out rayLength))
+        {
+            Vector3 pointToLook = cameraRay.GetPoint(rayLength);
+            
+            transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
+        }
+    }
 }

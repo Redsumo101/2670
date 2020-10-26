@@ -5,35 +5,43 @@ using UnityEngine;
 
 public class DisappearingPlatform : MonoBehaviour
 {
-    public Transform platformPosition;
-    public GameObject platform;
-    public int gone = 2;
-    public WaitForSeconds goneTime;
-
-    void Start()
-    {
-        goneTime = new WaitForSeconds(3);
-    }
-
-    private void Update()
-    {
-        StartCoroutine(Destroy());
-    }
-
-    private IEnumerator Destroy()
-    {
-        yield return goneTime;
-        Destroy(gameObject);
-
-    }
-    void OnDestroy()
-    {
-        StartCoroutine(Disappear());
-    }
-
-   private IEnumerator Disappear()
+   private bool isOn;
+   public GameObject platform;
+   private Renderer rend;
+   private Collider coli;
+   public int repeatRate = 2;
+   
+ 
+   void Start()
    {
-       Instantiate(platform, platformPosition.position, platformPosition.rotation);
-       yield return goneTime;
+      rend = GetComponent<Renderer>();
+      rend.enabled = true;
+      coli = GetComponent<Collider>();
+      coli.enabled = true;
+      InvokeRepeating("OnAndOff", 0, repeatRate);
+   }
+ 
+   void OnAndOff()
+   {
+      if(isOn){
+         isOn = false;
+      }else{
+         isOn = true;
+      }
+   }
+
+   private void Update()
+   {
+      if (isOn == false)
+      {
+         rend.enabled = false;
+         coli.enabled = false;
+      }
+      else
+      {
+         rend.enabled = true;
+         coli.enabled = true;
+      }
+      
    }
 }
