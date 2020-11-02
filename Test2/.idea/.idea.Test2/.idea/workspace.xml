@@ -56,7 +56,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
@@ -66,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +146,7 @@
       <workItem from="1603391580176" duration="2062000" />
       <workItem from="1603661217647" duration="11785000" />
       <workItem from="1603740036817" duration="595000" />
-      <workItem from="1604355847998" duration="593000" />
+      <workItem from="1604355847998" duration="1816000" />
     </task>
     <servers />
   </component>

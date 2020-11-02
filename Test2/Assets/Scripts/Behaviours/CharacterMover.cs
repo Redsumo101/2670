@@ -31,11 +31,11 @@ public class CharacterMover : MonoBehaviour
         movement.z = Input.GetAxis("Vertical") * moveSpeed;
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            moveSpeed = 6;
+            moveSpeed = 20;
         }
         else
         {
-            moveSpeed = 3;
+            moveSpeed = 10;
         }
        
         
