@@ -65,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +146,7 @@
       <workItem from="1603391580176" duration="2062000" />
       <workItem from="1603661217647" duration="11785000" />
       <workItem from="1603740036817" duration="595000" />
+      <workItem from="1604355847998" duration="593000" />
     </task>
     <servers />
   </component>
