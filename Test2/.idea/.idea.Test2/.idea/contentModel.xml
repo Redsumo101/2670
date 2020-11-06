@@ -9,11 +9,13 @@
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
             <e p="ApplyForce.cs" t="Include" />
+            <e p="AttackScript.cs" t="Include" />
             <e p="CharacterMover.cs" t="Include" />
             <e p="DisappearingPlatform.cs" t="Include" />
             <e p="EnemyBehavior.cs" t="Include" />
             <e p="FollowPlayer.cs" t="Include" />
             <e p="HealthBehavior.cs" t="Include" />
+            <e p="HeavyAttack.cs" t="Include" />
             <e p="KnockBackBehaviour.cs" t="Include" />
             <e p="LookAtBehaviour.cs" t="Include" />
             <e p="MonoEventsBehaviour.cs" t="Include" />

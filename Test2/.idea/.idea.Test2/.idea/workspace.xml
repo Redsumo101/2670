@@ -54,7 +54,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
@@ -66,6 +65,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
       </list>
     </option>
   </component>
@@ -147,6 +150,8 @@
       <workItem from="1603661217647" duration="11785000" />
       <workItem from="1603740036817" duration="595000" />
       <workItem from="1604355847998" duration="1817000" />
+      <workItem from="1604529558580" duration="360000" />
+      <workItem from="1604612706706" duration="6224000" />
     </task>
     <servers />
   </component>

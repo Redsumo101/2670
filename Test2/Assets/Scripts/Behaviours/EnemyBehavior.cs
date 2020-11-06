@@ -7,13 +7,15 @@ using UnityEngine.AI;
 public class EnemyBehavior : MonoBehaviour
 {
     public float lookRadius = 10f;
-
+    public int maxHealth = 10;
+    private int currentHealth;
     Transform target;
 
     NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
     {
+        currentHealth = maxHealth;
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -34,4 +36,22 @@ public class EnemyBehavior : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+       
+           
+        
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
+    }
+   
 }
