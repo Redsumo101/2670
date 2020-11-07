@@ -69,6 +69,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/JumpAnimation.cs" />
       </list>
     </option>
   </component>
@@ -152,6 +153,7 @@
       <workItem from="1604355847998" duration="1817000" />
       <workItem from="1604529558580" duration="360000" />
       <workItem from="1604612706706" duration="6224000" />
+      <workItem from="1604720441757" duration="1145000" />
     </task>
     <servers />
   </component>
