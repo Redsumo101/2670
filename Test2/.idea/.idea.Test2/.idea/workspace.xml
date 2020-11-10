@@ -23,6 +23,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Vector3Data.cs" />
@@ -70,6 +70,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/JumpAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
       </list>
     </option>
   </component>
@@ -155,6 +157,8 @@
       <workItem from="1604612706706" duration="6224000" />
       <workItem from="1604720441757" duration="1145000" />
       <workItem from="1604896091338" duration="596000" />
+      <workItem from="1604943002908" duration="2640000" />
+      <workItem from="1604979593441" duration="4214000" />
     </task>
     <servers />
   </component>

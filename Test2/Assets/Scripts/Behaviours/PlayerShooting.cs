@@ -34,4 +34,5 @@ public class PlayerShooting : MonoBehaviour
             ammoCount = 30;
         }
     }
+    
 }

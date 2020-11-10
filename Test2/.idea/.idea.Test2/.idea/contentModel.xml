@@ -14,6 +14,7 @@
             <e p="CharacterMover.cs" t="Include" />
             <e p="DisappearingPlatform.cs" t="Include" />
             <e p="EnemyBehavior.cs" t="Include" />
+            <e p="EnemySpawner.cs" t="Include" />
             <e p="FollowPlayer.cs" t="Include" />
             <e p="HealthBehavior.cs" t="Include" />
             <e p="HeavyAttack.cs" t="Include" />
