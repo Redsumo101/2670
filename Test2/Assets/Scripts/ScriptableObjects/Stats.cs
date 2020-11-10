@@ -9,17 +9,6 @@ public class Stats : ScriptableObject
     public float moveSpeed;
     public float attack;
     public float attackSpeed;
-    public Stats[] nextStats;
-
-    public float GetStats()
-    {
-        return jumpAmount;
-
-    }
-
-    public Stats[] GetNextStats()
-    {
-        return nextStats;
-    }
+   
 
 }
