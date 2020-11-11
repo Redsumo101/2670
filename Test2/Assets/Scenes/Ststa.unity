@@ -6014,7 +6014,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jump: 0
-  startingStats: {fileID: 11400000, guid: 6b6a1bda3d2fb3f488bb010911fca579, type: 2}
+  stats:
+  - {fileID: 11400000, guid: aefb209ca169b9c4796b2324c171de9b, type: 2}
+  - {fileID: 11400000, guid: 62587feccf8e38048824e95e0b4ad13f, type: 2}
+  - {fileID: 11400000, guid: dfdebe2856f80cd468110c9e717ca523, type: 2}
 --- !u!4 &1526146265
 Transform:
   m_ObjectHideFlags: 0

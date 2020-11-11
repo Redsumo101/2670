@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32da7f0fd863e6c44a673110783bcc61, type: 3}
   m_Name: FastStats
   m_EditorClassIdentifier: 
-  defense: 0
-  jumpAmount: 2
-  moveSpeed: 0
-  attack: 0
-  attackSpeed: 0
-  nextStats: []
+  defense: 5
+  jumpAmount: 6
+  moveSpeed: 10
+  attack: 1
+  attackSpeed: 3
