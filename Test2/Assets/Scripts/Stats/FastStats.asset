@@ -17,3 +17,4 @@ MonoBehaviour:
   moveSpeed: 10
   attack: 1
   attackSpeed: 3
+  sprint: 20

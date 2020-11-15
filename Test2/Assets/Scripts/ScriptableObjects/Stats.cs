@@ -9,6 +9,6 @@ public class Stats : ScriptableObject
     public float moveSpeed;
     public float attack;
     public float attackSpeed;
-   
+    public float sprint;
 
 }

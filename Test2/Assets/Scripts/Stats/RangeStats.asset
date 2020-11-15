@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defense: 0
   jumpAmount: 1
-  moveSpeed: 0
+  moveSpeed: 10
   attack: 0
   attackSpeed: 0
-  nextStats: []
+  sprint: 15

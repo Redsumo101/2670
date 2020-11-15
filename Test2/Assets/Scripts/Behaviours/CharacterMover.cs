@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
@@ -14,12 +15,17 @@ public class CharacterMover : MonoBehaviour
     public float jumpCount;
     public float jumpForceMax = 100f;
     private StatsBehavior stats;
+    
     void Start()
     {
         
         controller = GetComponent<CharacterController>();
+        stats = GetComponent<StatsBehavior>();
+        jumpCount = stats.jump;
+        moveSpeed = stats.moveSpeed;
         
-        
+
+
     }
 
     // Update is called once per frame
@@ -29,13 +35,14 @@ public class CharacterMover : MonoBehaviour
         
         movement.x = Input.GetAxis("Horizontal") * moveSpeed;
         movement.z = Input.GetAxis("Vertical") * moveSpeed;
+        
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            moveSpeed = 20;
+            moveSpeed = stats.sprint;
         }
         else
         {
-            moveSpeed = 10;
+            moveSpeed = stats.moveSpeed;
         }
        
         
@@ -78,4 +85,6 @@ public class CharacterMover : MonoBehaviour
         var pushDirection = direction * pushPower;
         body.velocity = pushDirection;
     }
+
+    
 }

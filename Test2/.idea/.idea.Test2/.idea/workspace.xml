@@ -19,6 +19,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/36/ec41f298/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/55/9172aa9d/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +63,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
@@ -72,6 +72,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
       </list>
     </option>
   </component>
@@ -160,6 +161,7 @@
       <workItem from="1604943002908" duration="2640000" />
       <workItem from="1604979593441" duration="4214000" />
       <workItem from="1605046485660" duration="4036000" />
+      <workItem from="1605412821417" duration="3693000" />
     </task>
     <servers />
   </component>

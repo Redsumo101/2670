@@ -5988,7 +5988,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1526146265}
   - component: {fileID: 1526146266}
-  - component: {fileID: 1526146270}
   - component: {fileID: 1526146264}
   - component: {fileID: 1526146267}
   - component: {fileID: 1526146268}
@@ -6013,11 +6012,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681e575ad90c8584ca6b2a0ef24b26bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defense: 0
   jump: 0
+  moveSpeed: 0
+  attack: 0
+  attackSpeed: 0
+  whichCharacter: 0
+  sprint: 0
   stats:
   - {fileID: 11400000, guid: aefb209ca169b9c4796b2324c171de9b, type: 2}
   - {fileID: 11400000, guid: 62587feccf8e38048824e95e0b4ad13f, type: 2}
   - {fileID: 11400000, guid: dfdebe2856f80cd468110c9e717ca523, type: 2}
+  - {fileID: 11400000, guid: aefb209ca169b9c4796b2324c171de9b, type: 2}
 --- !u!4 &1526146265
 Transform:
   m_ObjectHideFlags: 0
@@ -6047,11 +6053,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f8b672e66f7cb44bab0919e4558f5fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: 1
-  moveSpeed: 40
+  gravity: 9.81
+  moveSpeed: 3
   jumpCountMax: 0
   jumpCount: 0
-  jumpForceMax: 50
+  jumpForceMax: 100
   pushPower: 3
 --- !u!143 &1526146267
 CharacterController:
@@ -6106,19 +6112,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1526146270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526146263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1528dd28dcd50004894ea888b2185318, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whichCharacter: 0
 --- !u!114 &1526146271
 MonoBehaviour:
   m_ObjectHideFlags: 0
