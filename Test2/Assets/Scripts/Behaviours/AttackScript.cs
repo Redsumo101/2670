@@ -13,20 +13,21 @@ public class AttackScript : MonoBehaviour
    {
       if (Input.GetKeyDown(KeyCode.Mouse0))
       {
-         Attack();
+         Attack(); 
       }
    }
 
    void Attack()
    {
       animator.SetTrigger("Attack");
-      Collider[] hitEnemies =Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
-
+      Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
       foreach (Collider enemy in hitEnemies)
       {
-         enemy.GetComponent<EnemyBehavior>().TakeDamage(5);
+         enemy.GetComponent<EnemyBehavior>().TakeDamage(10);
       }
    }
+
+  
 
    private void OnDrawGizmosSelected()
    {

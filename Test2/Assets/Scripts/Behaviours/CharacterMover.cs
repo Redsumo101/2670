@@ -85,6 +85,4 @@ public class CharacterMover : MonoBehaviour
         var pushDirection = direction * pushPower;
         body.velocity = pushDirection;
     }
-
-    
 }

@@ -57,22 +57,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/JumpAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
       </list>
     </option>
   </component>
@@ -162,6 +163,7 @@
       <workItem from="1604979593441" duration="4214000" />
       <workItem from="1605046485660" duration="4036000" />
       <workItem from="1605412821417" duration="4149000" />
+      <workItem from="1605467095724" duration="3804000" />
     </task>
     <servers />
   </component>

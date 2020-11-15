@@ -23,7 +23,7 @@ public class HeavyAttack : MonoBehaviour
        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayer);
        foreach (Collider enemy in hitEnemies)
        {
-           enemy.GetComponent<EnemyBehavior>().TakeDamage(10);
+           enemy.GetComponent<EnemyBehavior>().TakeDamage(20);
        }
    }
    private void OnDrawGizmosSelected()

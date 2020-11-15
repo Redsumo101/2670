@@ -8,7 +8,7 @@ public class EnemyBehavior : MonoBehaviour
 {
     public float lookRadius = 10f;
     public int maxHealth = 10;
-    private int currentHealth;
+    public int currentHealth;
     Transform target;
 
     NavMeshAgent agent;
@@ -45,7 +45,7 @@ public class EnemyBehavior : MonoBehaviour
         
         if (currentHealth <= 0)
         {
-            Die();
+           Die();
         }
     }
 
