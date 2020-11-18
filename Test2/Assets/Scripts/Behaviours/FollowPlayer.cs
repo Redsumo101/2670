@@ -11,7 +11,8 @@ public class FollowPlayer : MonoBehaviour
     [Range(0.01f, 1.0f)]
     public float smoothFactor = 0.5f;
 
-    public bool LookAtPLayer = false;
+    public bool LookAtPlayer = false;
+   
 
     private void Start()
     {
@@ -24,7 +25,9 @@ public class FollowPlayer : MonoBehaviour
 
         transform.position = Vector3.Slerp(transform.position, newPos, smoothFactor);
         
-        if(LookAtPLayer)
+        if(LookAtPlayer)
             transform.LookAt(PlayerTransform);
     }
+
+  
 }
