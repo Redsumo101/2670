@@ -28,7 +28,6 @@
             <e p="PlayerShooting.cs" t="Include" />
             <e p="Respawn.cs" t="Include" />
             <e p="StatsBehavior.cs" t="Include" />
-            <e p="TransparentBehavior.cs" t="Include" />
             <e p="TriggerEventBehaviour.cs" t="Include" />
           </e>
           <e p="InstancerBehaviour.cs" t="Include" />

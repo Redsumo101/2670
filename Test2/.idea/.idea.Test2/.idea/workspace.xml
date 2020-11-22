@@ -24,7 +24,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SeeThrough.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/TransparentBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -172,7 +171,8 @@
       <workItem from="1605412821417" duration="4149000" />
       <workItem from="1605467095724" duration="3804000" />
       <workItem from="1605674164598" duration="3335000" />
-      <workItem from="1605810084699" duration="3215000" />
+      <workItem from="1605810084699" duration="3473000" />
+      <workItem from="1606072891859" duration="6703000" />
     </task>
     <servers />
   </component>

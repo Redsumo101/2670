@@ -1,42 +1,62 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class ObstructionDetector : MonoBehaviour
 {
-    public Transform player;
-    private TransparentBehavior obstruction;
-    
-    
-    void Start()
+    public Material seeThrough;
+    public Camera camera;
+    public Transform target;
+    public LayerMask layerMask;
+    private Material defaultMaterial;
+
+    private Transform selected;
+
+
+    private void Start()
     {
-        StartCoroutine(DetectObstruction());
+        
     }
 
-
-
-    IEnumerator DetectObstruction()
+    private void OnValidate()
     {
-        while (true)
+        if (camera == null)
+            camera = Camera.main;
+    }
+
+    private void Update()
+    {
+        RaycastSingle();
+    }
+
+    private void RaycastSingle()
+    {
+        Vector3 origin = camera.transform.position;
+        Vector3 toPosition = target.transform.position;
+        Vector3 direction = toPosition - origin;
+
+        if (selected != null)
         {
-            Vector3 origin = Camera.current.transform.position;
-            Vector3 direction = player.forward;
-            Ray ray = new Ray(origin, direction);
-            yield return new WaitForSeconds(0.5f);
-
-
-            if (Physics.Raycast(ray, out RaycastHit raycastHit, Mathf.Infinity))
+            var selectionRenderer = selected.GetComponent<Renderer>();
+            selectionRenderer.material = defaultMaterial;
+            selected = null;
+        }
+        
+        Debug.DrawRay(origin, direction * 10f, Color.red);
+        Ray ray = new Ray(origin, direction);
+        
+        if (Physics.Raycast(ray, out RaycastHit raycastHit, 50f, layerMask))
+        {
+            var selection = raycastHit.transform;
+            var selectionRenderer = selection.GetComponent<Renderer>();
+            if (selectionRenderer != null)
             {
-                obstruction = raycastHit.collider.gameObject.GetComponent<TransparentBehavior>();
-                if (obstruction)
-                {
-                    obstruction.SetTransparent();
-                }
-                else
-                {
-                    obstruction.Normal();
-                }
+                raycastHit.collider.GetComponent<Renderer>().material = seeThrough;
             }
+
+            selected = selection;
         }
     }
 }
