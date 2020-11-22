@@ -2737,7 +2737,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &744672015
 PrefabInstance:
@@ -3033,7 +3033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeThrough: {fileID: 2100000, guid: 7c08d0502ad0f7f4b8a588dfdb0ef5d0, type: 2}
   camera: {fileID: 805002610}
-  target: {fileID: 1526146263}
+  target: {fileID: 1526146265}
   layerMask:
     serializedVersion: 2
     m_Bits: 512
@@ -3088,7 +3088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805002608}
   m_LocalRotation: {x: 0.30153793, y: 0, z: 0, w: 0.95345426}
-  m_LocalPosition: {x: -63.869995, y: 53.36, z: 14.460001}
+  m_LocalPosition: {x: -21.35, y: 49.449997, z: 27.159998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5274,7 +5274,6 @@ GameObject:
   - component: {fileID: 1316338878}
   - component: {fileID: 1316338877}
   - component: {fileID: 1316338876}
-  - component: {fileID: 1316338879}
   m_Layer: 9
   m_Name: Cube (12)
   m_TagString: Wall
@@ -5358,18 +5357,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316338874}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1316338879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316338874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 571e0489b8f33c1469055b12711b21f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1325250114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6298,7 +6285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526146263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -63.869995, y: 35.36, z: 38.06}
+  m_LocalPosition: {x: -21.35, y: 31.45, z: 50.76}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1186165339}
@@ -6865,7 +6852,7 @@ PrefabInstance:
     - target: {fileID: 5641248442368101481, guid: e170deb547fd55746880d2d5e4ca9804,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5641248442368101481, guid: e170deb547fd55746880d2d5e4ca9804,
         type: 3}
