@@ -6,9 +6,15 @@ using UnityEngine;
 public class HealthBehavior : MonoBehaviour
 
 {
-    public float health = 1f;
-    
-    
+    public float maxHealth = 10;
+    public float health;
+    public HealthBar healthBar;
+    public void Start()
+    {
+        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
 
     private void Update()
     {
@@ -23,7 +29,8 @@ public class HealthBehavior : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
-            health--;
+            health --;
+            healthBar.SetHealth(health);
         }
     }
 }

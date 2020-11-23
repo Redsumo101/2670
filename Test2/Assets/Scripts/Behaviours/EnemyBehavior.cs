@@ -7,17 +7,20 @@ using UnityEngine.AI;
 public class EnemyBehavior : MonoBehaviour
 {
     public float lookRadius = 10f;
-    public int maxHealth = 10;
-    public int currentHealth;
+    public float maxHealth = 10f;
+    public float currentHealth;
     Transform target;
+    public HealthBar healthBar;
 
     NavMeshAgent agent;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
+        
     }
 
     // Update is called once per frame
@@ -37,10 +40,10 @@ public class EnemyBehavior : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, lookRadius);
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-       
+        healthBar.SetHealth(currentHealth);
            
         
         if (currentHealth <= 0)
