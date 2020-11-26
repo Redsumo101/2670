@@ -13,6 +13,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,7 +26,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SeeThrough.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/e7/d07b52b8/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Ammo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,28 +62,30 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SwitchCharacters.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/JumpAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Stencil.cs" />
         <option value="$PROJECT_DIR$/Assets/SeeThrough.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TransparentBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ObstructionDetector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Ammo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/PitSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthPickup.cs" />
       </list>
     </option>
   </component>
@@ -177,7 +179,8 @@
       <workItem from="1605674164598" duration="3335000" />
       <workItem from="1605810084699" duration="3473000" />
       <workItem from="1606072891859" duration="7436000" />
-      <workItem from="1606155320395" duration="6013000" />
+      <workItem from="1606155320395" duration="6252000" />
+      <workItem from="1606344778132" duration="4480000" />
     </task>
     <servers />
   </component>

@@ -129,7 +129,32 @@ PrefabInstance:
     - target: {fileID: 614567327775078623, guid: 143fc4e1d888e8c45a81a5b1e31d4069,
         type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 614567327775078623, guid: 143fc4e1d888e8c45a81a5b1e31d4069,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242024536140528075, guid: 143fc4e1d888e8c45a81a5b1e31d4069,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.14527449
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242024536140528075, guid: 143fc4e1d888e8c45a81a5b1e31d4069,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.14527449
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242024536140528075, guid: 143fc4e1d888e8c45a81a5b1e31d4069,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.14527449
+      objectReference: {fileID: 0}
+    - target: {fileID: 2242024536140528075, guid: 143fc4e1d888e8c45a81a5b1e31d4069,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.324
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 614567327775078622, guid: 143fc4e1d888e8c45a81a5b1e31d4069, type: 3}

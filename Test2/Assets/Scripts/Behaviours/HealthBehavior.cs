@@ -33,4 +33,10 @@ public class HealthBehavior : MonoBehaviour
             healthBar.SetHealth(health);
         }
     }
+
+    public void GetHealth(float plus)
+    {
+        health += plus;
+        healthBar.SetHealth(health);
+    }
 }

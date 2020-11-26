@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             InvokeRepeating("EnemySpawn", 0.5f, repeatRate);
-            Destroy(gameObject, 60);
+            Destroy(gameObject, 30);
             
         }
     }

@@ -44,6 +44,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+        
            
         
         if (currentHealth <= 0)
@@ -56,5 +57,6 @@ public class EnemyBehavior : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    
    
 }

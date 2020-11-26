@@ -15,7 +15,7 @@ public class LookAtBehaviour : MonoBehaviour
     private void Update()
     {
         Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
-        Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
+        Plane groundPlane = new Plane(Vector3.up, transform.position);
         float rayLength;
 
         if (groundPlane.Raycast(cameraRay, out rayLength))
