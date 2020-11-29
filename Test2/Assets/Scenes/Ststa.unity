@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 60
+    agentSlope: 45
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -366,14 +366,14 @@ RectTransform:
   m_GameObject: {fileID: 70682443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6313, y: 1.6313, z: 1.6313}
   m_Children: []
   m_Father: {fileID: 1261596985}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -42.48006, y: -8.868118}
+  m_AnchoredPosition: {x: -61.166107, y: -29.530487}
   m_SizeDelta: {x: 84.96008, y: 17.736237}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &70682446
@@ -1270,7 +1270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241594145}
   m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: -11.76, y: 62.957565, z: 12.978446}
+  m_LocalPosition: {x: -11.76, y: 87.23757, z: 19.358446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 155545746}
@@ -2184,6 +2184,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501956360}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &503897244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503897245}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &503897245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503897244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.495, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1526146265}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &570096432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2045751595110086028, guid: fab33958ec2d73b4682e36c5941bb7f3,
@@ -3411,7 +3441,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805002608}
   m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: -11.76, y: 62.957565, z: 12.978446}
+  m_LocalPosition: {x: -11.76, y: 87.23757, z: 19.358446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4923,7 +4953,7 @@ GameObject:
   - component: {fileID: 1101399929}
   - component: {fileID: 1101399928}
   - component: {fileID: 1101399927}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terrain_(-48.2, -0.7, 111.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6330,7 +6360,7 @@ GameObject:
   - component: {fileID: 1425880538}
   - component: {fileID: 1425880537}
   - component: {fileID: 1425880540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6914,12 +6944,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526146263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.76, y: 40.46, z: 39.79}
+  m_LocalPosition: {x: -11.76, y: 64.74, z: 46.17}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1186165339}
   - {fileID: 1823409713}
   - {fileID: 716032469}
+  - {fileID: 503897245}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6935,12 +6966,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f8b672e66f7cb44bab0919e4558f5fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gravity: 9.81
-  moveSpeed: 1
-  jumpCountMax: 0
+  controller: {fileID: 1526146267}
+  stats: {fileID: 0}
+  jumpHeight: 5
+  gravity: -58.86
+  groundCheck: {fileID: 503897245}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 1024
   jumpCount: 0
-  jumpForceMax: 100
-  pushPower: 3
+  moveSpeed: 0
 --- !u!143 &1526146267
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6955,7 +6991,7 @@ CharacterController:
   m_Height: 1.03
   m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.7
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
@@ -6984,16 +7020,16 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 10.4
+  m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 0
-  m_AutoBraking: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2.11
-  m_BaseOffset: 0
+  m_Height: 2
+  m_BaseOffset: -0.46
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1526146270
@@ -7642,7 +7678,7 @@ PrefabInstance:
     - target: {fileID: 5641248442368101484, guid: e170deb547fd55746880d2d5e4ca9804,
         type: 3}
       propertyPath: m_Layer
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e170deb547fd55746880d2d5e4ca9804, type: 3}
@@ -8273,7 +8309,7 @@ RectTransform:
   m_GameObject: {fileID: 1699650398}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.7882, y: 1, z: 1}
   m_Children:
   - {fileID: 932089448}
   m_Father: {fileID: 875239636}
@@ -8281,7 +8317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.89, y: 72.39}
+  m_AnchoredPosition: {x: -384, y: 267}
   m_SizeDelta: {x: 103.30377, y: 15.480438}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699650400
@@ -8735,7 +8771,7 @@ GameObject:
   - component: {fileID: 1847248818}
   - component: {fileID: 1847248817}
   - component: {fileID: 1847248820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terrain_(-148.2, -0.7, 11.5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9625,14 +9661,14 @@ RectTransform:
   m_GameObject: {fileID: 2060707213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6313, y: 1.6313, z: 1.6313}
   m_Children: []
   m_Father: {fileID: 1261596985}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -38.7, y: 197.6}
+  m_AnchoredPosition: {x: -55, y: 177}
   m_SizeDelta: {x: 35.918182, y: 17.868118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2060707215

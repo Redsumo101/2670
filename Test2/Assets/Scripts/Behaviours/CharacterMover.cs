@@ -3,87 +3,68 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using UnityEngine;
+using UnityEngine.EventSystems;
+
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMover : MonoBehaviour
 {
-    private CharacterController controller;
-    private Vector3 movement;
-    public float gravity = 9.81f;
-    public float moveSpeed = 3f;
-    private float jumpForce = 100f;
-    public float jumpCountMax;
+    public CharacterController controller;
+    public StatsBehavior stats;
+    private Vector3 velocity;
+    public float jumpHeight = 3f;
+    public float gravity = -9.81f;
+    public Transform groundCheck;
+    public float groundDistance;
+    public LayerMask groundMask;
+    private bool isGrounded;
     public float jumpCount;
-    public float jumpForceMax = 100f;
-    private StatsBehavior stats;
+    public float moveSpeed;
     
-    void Start()
+
+    public void Start()
     {
-        
-        controller = GetComponent<CharacterController>();
         stats = GetComponent<StatsBehavior>();
-        jumpCount = stats.jump;
-        moveSpeed = stats.moveSpeed;
         
-
-
     }
+ 
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        if (isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+            jumpCount = stats.jump;
+        }
+
+        float x = Input.GetAxis("Horizontal") * moveSpeed;
+        float z = Input.GetAxis("Vertical") * moveSpeed;
+
+        Vector3 move = new Vector3(x, 0f, z).normalized;
+
+        controller.Move(move * moveSpeed * Time.deltaTime);
+
+        if (Input.GetButtonDown("Jump") && jumpCount > 0 )
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            jumpCount--;
+        }
         
-        movement.x = Input.GetAxis("Horizontal") * moveSpeed;
-        movement.z = Input.GetAxis("Vertical") * moveSpeed;
-        
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = stats.sprint;
         }
+
         else
         {
             moveSpeed = stats.moveSpeed;
         }
-       
-        
-        if (Input.GetButtonDown("Jump"))
-        {
-            jumpCount -= 1;
-            movement.y = jumpForce;
-            
-        }
-        
-        if (jumpCount <= 0)
-        {
-            jumpForce = 0 ;
-        }
-        if (controller.isGrounded)
-        {
-            stats = GetComponent<StatsBehavior>();
-            jumpCount = stats.jump;
-            jumpForce = jumpForceMax;
-        }
-        else
-        {
-            movement.y -= gravity ;
-        }
-        
-       
-       
-        controller.Move(movement* Time.deltaTime);
     }
 
-    private Vector3 direction = Vector3.zero;
-    public float pushPower = 3f;
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        var body = hit.collider.attachedRigidbody;
-        if (body == null)
-        {
-            return;
-        }
-        direction.Set(hit.moveDirection.x,0, hit.moveDirection.z);
-        var pushDirection = direction * pushPower;
-        body.velocity = pushDirection;
-    }
 }
