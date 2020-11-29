@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -8,6 +9,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject[] enemyPrefabs;
     public Vector3[] spawnPoints;
     public float repeatRate = 2.0f;
+    public GameObject wall;
    
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,9 @@ public class EnemySpawner : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             InvokeRepeating("EnemySpawn", 0.5f, repeatRate);
-            Destroy(gameObject, 30);
+            Destroy(gameObject, 20);
+            Destroy(wall, 20);
+            
             
         }
     }

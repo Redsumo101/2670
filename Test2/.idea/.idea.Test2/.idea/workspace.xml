@@ -68,7 +68,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/StatsBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Stencil.cs" />
         <option value="$PROJECT_DIR$/Assets/SeeThrough.cs" />
@@ -79,13 +78,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HeavyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Ammo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/LookAtBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/PitSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
       </list>
     </option>
   </component>
@@ -181,6 +181,7 @@
       <workItem from="1606072891859" duration="7436000" />
       <workItem from="1606155320395" duration="6252000" />
       <workItem from="1606344778132" duration="4480000" />
+      <workItem from="1606617812873" duration="3552000" />
     </task>
     <servers />
   </component>
@@ -193,6 +194,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="727" y="244" key="RiderGenerateDialog" timestamp="1606619718913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="244" key="RiderGenerateDialog/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1606619718913" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603140217323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

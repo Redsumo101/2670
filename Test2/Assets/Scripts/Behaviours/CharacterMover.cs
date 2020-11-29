@@ -52,7 +52,8 @@ public class CharacterMover : MonoBehaviour
             movement.y = jumpForce;
             
         }
-        if (jumpCount <= 1)
+        
+        if (jumpCount <= 0)
         {
             jumpForce = 0 ;
         }
@@ -64,7 +65,7 @@ public class CharacterMover : MonoBehaviour
         }
         else
         {
-            movement.y -= gravity;
+            movement.y -= gravity ;
         }
         
        
