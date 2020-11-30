@@ -86,6 +86,7 @@
         <option value="$PROJECT_DIR$/Assets/HealthPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Platform.cs" />
       </list>
     </option>
   </component>
@@ -182,7 +183,8 @@
       <workItem from="1606155320395" duration="6252000" />
       <workItem from="1606344778132" duration="4480000" />
       <workItem from="1606617812873" duration="3552000" />
-      <workItem from="1606675397253" duration="6318000" />
+      <workItem from="1606675397253" duration="7702000" />
+      <workItem from="1606711892984" duration="690000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RangeStats
   m_EditorClassIdentifier: 
   defense: 0
-  jumpAmount: 1
+  jumpAmount: 3
   moveSpeed: 10
   attack: 0
   attackSpeed: 0

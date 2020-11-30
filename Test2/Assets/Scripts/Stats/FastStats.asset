@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FastStats
   m_EditorClassIdentifier: 
   defense: 5
-  jumpAmount: 6
+  jumpAmount: 2
   moveSpeed: 10
   attack: 1
   attackSpeed: 3

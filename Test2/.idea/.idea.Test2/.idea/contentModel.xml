@@ -28,6 +28,7 @@
             <e p="MouseLocationBehaviour.cs" t="Include" />
             <e p="Moving Platform.cs" t="Include" />
             <e p="ObstructionDetector.cs" t="Include" />
+            <e p="Platform.cs" t="Include" />
             <e p="PlayerShooting.cs" t="Include" />
             <e p="Respawn.cs" t="Include" />
             <e p="StatsBehavior.cs" t="Include" />
