@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6307493594457982514}
   - component: {fileID: 2724394292436237455}
   - component: {fileID: 4474767849270987137}
-  m_Layer: 0
+  - component: {fileID: 1480330213373998144}
+  m_Layer: 9
   m_Name: Trunk
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1480330213373998144
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723941668139618952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5668788170693331272, guid: 4a34662af8e27d74284d4b92da7087a6, type: 3}
 --- !u!1 &3651811575392030312
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +107,8 @@ GameObject:
   - component: {fileID: 2026426082532305082}
   - component: {fileID: 4658784217203556477}
   - component: {fileID: 691930642850184113}
-  m_Layer: 0
+  - component: {fileID: 2711032401502466245}
+  m_Layer: 9
   m_Name: Leaves
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -162,6 +178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2711032401502466245
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3651811575392030312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 766207002214816160, guid: 4a34662af8e27d74284d4b92da7087a6, type: 3}
 --- !u!1 &4550827431712421355
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,7 +203,8 @@ GameObject:
   - component: {fileID: 3100588661617074775}
   - component: {fileID: 5415330231086798725}
   - component: {fileID: 6506565613451231095}
-  m_Layer: 0
+  - component: {fileID: 947754422}
+  m_Layer: 9
   m_Name: Tree Variant
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -187,7 +218,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4550827431712421355}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 79.38193, y: 210.21786, z: 328.76685}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
@@ -222,7 +253,7 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: -0.20819926, y: 3.4025664, z: -0.032102823}
   m_Size: 6.931841
-  m_FadeMode: 0
+  m_FadeMode: 1
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
@@ -242,3 +273,17 @@ LODGroup:
     - renderer: {fileID: 691930642850184113}
     - renderer: {fileID: 4474767849270987137}
   m_Enabled: 1
+--- !u!64 &947754422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4550827431712421355}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 766207002214816160, guid: 4a34662af8e27d74284d4b92da7087a6, type: 3}

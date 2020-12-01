@@ -13,8 +13,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/MouseLocationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HealthPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/OutlineBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/18/7d6d93f5/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -29,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lerping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49F4E7E7-91CC-4FFF-ACD8-8F729E2B1E4C/44/debdd063/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Unity/2020.1.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/VertexModifiers/Outline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstancerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,9 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
@@ -87,6 +85,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/OutlineBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ButtonPress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/BossSpawn.cs" />
       </list>
     </option>
   </component>
@@ -185,6 +186,10 @@
       <workItem from="1606617812873" duration="3552000" />
       <workItem from="1606675397253" duration="7702000" />
       <workItem from="1606711892984" duration="690000" />
+      <workItem from="1606757451292" duration="2232000" />
+      <workItem from="1606763552673" duration="3183000" />
+      <workItem from="1606791236287" duration="162000" />
+      <workItem from="1606791417967" duration="5645000" />
     </task>
     <servers />
   </component>
@@ -205,9 +210,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1606676712033" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605052009657">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606768295962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1605052009657" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1606768295962" />
   </component>
 </project>

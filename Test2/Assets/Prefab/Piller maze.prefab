@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 589646521194719805}
   - component: {fileID: 1556222015957854710}
   - component: {fileID: 6511167998592615288}
-  - component: {fileID: 6824995033170055723}
   - component: {fileID: 4110353704804492912}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6824995033170055723
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 464690722587207283, guid: ad57f875f328ccc4a833daac7d1cd41b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2589440338375996077}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5186885044789510714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!205 &4110353704804492912
 LODGroup:
   m_ObjectHideFlags: 0
@@ -139,9 +124,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1748297587224598619}
   - component: {fileID: 2830086204027390044}
-  m_Layer: 0
+  - component: {fileID: 2332803798821791235}
+  m_Layer: 9
   m_Name: Piller maze
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +157,7 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0, y: 0.53100014, z: 0}
   m_Size: 1
-  m_FadeMode: 0
+  m_FadeMode: 2
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
@@ -188,6 +174,20 @@ LODGroup:
     renderers:
     - renderer: {fileID: 6511167998592615288}
   m_Enabled: 1
+--- !u!64 &2332803798821791235
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063028481408973950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &2589440338375996077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -270,5 +270,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3559069747799484769, guid: ad57f875f328ccc4a833daac7d1cd41b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: ad57f875f328ccc4a833daac7d1cd41b, type: 3}
