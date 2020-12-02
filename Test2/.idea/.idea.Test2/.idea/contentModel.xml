@@ -42,6 +42,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
+            <e p="AiPatrol.cs" t="Include" />
             <e p="ApplyForce.cs" t="Include" />
             <e p="AttackScript.cs" t="Include" />
             <e p="BossSpawn.cs" t="Include" />

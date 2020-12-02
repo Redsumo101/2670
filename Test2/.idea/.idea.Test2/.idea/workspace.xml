@@ -37,7 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs" />
@@ -88,6 +87,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/OutlineBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ButtonPress.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/BossSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AiPatrol.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +190,7 @@
       <workItem from="1606763552673" duration="3183000" />
       <workItem from="1606791236287" duration="162000" />
       <workItem from="1606791417967" duration="5645000" />
+      <workItem from="1606878490860" duration="2962000" />
     </task>
     <servers />
   </component>
