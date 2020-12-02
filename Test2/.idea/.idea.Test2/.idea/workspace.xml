@@ -37,9 +37,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FireAmmo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseDownBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Lerping.cs" />
@@ -60,7 +57,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/StringListData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/DisappearingPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/JumpAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/TriggerEventBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Stats.cs" />
@@ -79,7 +75,6 @@
         <option value="$PROJECT_DIR$/Assets/PitSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemyBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMover.cs" />
@@ -87,7 +82,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/OutlineBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ButtonPress.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/BossSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/KnockBackBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AiPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/WeakPoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/ApplyForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/BossBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/OutlineEffect/Samples/Demo/Rotate.cs" />
       </list>
     </option>
   </component>
@@ -191,6 +191,7 @@
       <workItem from="1606791236287" duration="162000" />
       <workItem from="1606791417967" duration="5645000" />
       <workItem from="1606878490860" duration="2962000" />
+      <workItem from="1606930409265" duration="10928000" />
     </task>
     <servers />
   </component>
@@ -211,9 +212,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1606676712033" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606768295962">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606943492789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1606768295962" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/3840.0.1280.680/1920.0.1920.1040@0.0.1920.1040" timestamp="1606943492789" />
   </component>
 </project>
