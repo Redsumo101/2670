@@ -9,7 +9,10 @@ public class HealthPickup : MonoBehaviour
 
    private void OnTriggerEnter(Collider player)
    {
-      player.GetComponent<HealthBehavior>().GetHealth(health);
-      Destroy(gameObject);
+      if (player.CompareTag("Player"))
+      {
+         player.GetComponent<HealthBehavior>().GetHealth(health);
+         Destroy(gameObject);
+      }
    }
 }

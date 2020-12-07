@@ -32,6 +32,11 @@ public class HealthBehavior : MonoBehaviour
             health --;
             healthBar.SetHealth(health);
         }
+        if(other.CompareTag("WeakPoints"))
+        {
+            health--;
+            healthBar.SetHealth((health));
+        }
     }
 
     public void GetHealth(float plus)

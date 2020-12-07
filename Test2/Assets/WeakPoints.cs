@@ -10,6 +10,7 @@ public class WeakPoints : MonoBehaviour
 
    private void Start()
    {
+      Physics.IgnoreLayerCollision(0,11);
       health = maxHealth;
    }
 
@@ -27,4 +28,6 @@ public class WeakPoints : MonoBehaviour
          Destroy(gameObject);
       }
    }
+
+   
 }
