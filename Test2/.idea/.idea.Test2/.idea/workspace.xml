@@ -39,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseEventsBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/FloatData.cs" />
@@ -90,6 +89,7 @@
         <option value="$PROJECT_DIR$/Assets/BossDeath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/BossSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/AiPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
       </list>
     </option>
   </component>
@@ -198,7 +198,8 @@
       <workItem from="1607280559148" duration="8153000" />
       <workItem from="1607353538598" duration="598000" />
       <workItem from="1607399779425" duration="3721000" />
-      <workItem from="1607540608595" duration="4070000" />
+      <workItem from="1607540608595" duration="4344000" />
+      <workItem from="1607629924397" duration="585000" />
     </task>
     <servers />
   </component>
