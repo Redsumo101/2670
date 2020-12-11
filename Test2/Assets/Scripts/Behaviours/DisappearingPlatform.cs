@@ -6,10 +6,12 @@ using UnityEngine;
 public class DisappearingPlatform : MonoBehaviour
 {
    private bool isOn;
-   public GameObject platform;
    private Renderer rend;
    private Collider coli;
    public int repeatRate = 2;
+   public Material seeThrough;
+   public Material solid;
+   
    
  
    void Start()
@@ -19,6 +21,7 @@ public class DisappearingPlatform : MonoBehaviour
       coli = GetComponent<Collider>();
       coli.enabled = true;
       InvokeRepeating("OnAndOff", 0, repeatRate);
+      gameObject.GetComponent<MeshRenderer>().material = solid;
    }
  
    void OnAndOff()
@@ -34,14 +37,16 @@ public class DisappearingPlatform : MonoBehaviour
    {
       if (isOn == false)
       {
-         rend.enabled = false;
+         gameObject.GetComponent<MeshRenderer>().material = seeThrough;
          coli.enabled = false;
       }
       else
       {
-         rend.enabled = true;
+         gameObject.GetComponent<MeshRenderer>().material = solid;
          coli.enabled = true;
       }
       
    }
+
+ 
 }

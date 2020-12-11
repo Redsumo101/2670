@@ -12,35 +12,17 @@
         <e p="OutlineEffect" t="Include">
           <e p="OutlineEffect" t="Include">
             <e p="LinkedSet.cs" t="Include" />
-            <e p="Outline.cs" t="Include" />
-            <e p="OutlineEffect.cs" t="Include" />
-            <e p="Resources" t="Include">
-              <e p="OutlineBufferShader.shader" t="Include" />
-              <e p="OutlineShader.shader" t="Include" />
-            </e>
           </e>
-          <e p="OutlineEffect.asmdef" t="Include" />
           <e p="Samples" t="Include">
             <e p="Demo" t="Include">
-              <e p="MaterialSwitcher.cs" t="Include" />
-              <e p="OutlineAnimation.cs" t="Include" />
               <e p="Rotate.cs" t="Include" />
-              <e p="Toggle.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="PitSpawn.cs" t="Include" />
+        <e p="PlatSpawn.cs" t="Include" />
         <e p="QuickOutline" t="Include">
           <e p="Readme.txt" t="Include" />
-          <e p="Resources" t="Include">
-            <e p="Shaders" t="Include">
-              <e p="OutlineFill.shader" t="Include" />
-              <e p="OutlineMask.shader" t="Include" />
-            </e>
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="Outline.cs" t="Include" />
-          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Behaviours" t="Include">
@@ -66,7 +48,6 @@
             <e p="MouseLocationBehaviour.cs" t="Include" />
             <e p="Moving Platform.cs" t="Include" />
             <e p="ObstructionDetector.cs" t="Include" />
-            <e p="OutlineBehaviour.cs" t="Include" />
             <e p="Platform.cs" t="Include" />
             <e p="PlayerShooting.cs" t="Include" />
             <e p="Respawn.cs" t="Include" />
@@ -126,7 +107,6 @@
         <e p="WeakPoints.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
-      <e p="OEBIF.csproj" t="IncludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="Test2.sln" t="IncludeFlat" />
